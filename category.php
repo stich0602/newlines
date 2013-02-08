@@ -8,8 +8,8 @@ if (have_posts()) {
   <div class="span10 offset1">
     <h1><?php echo single_cat_title(); ?></h1>
     <p><em><?php echo category_description(); ?></em></p>
-  </div><!--/span-->
-</div><!--/row-->
+  </div>
+</div>
 <hr class="featurette-divider">
 <?php
   rewind_posts();
@@ -22,7 +22,7 @@ if (have_posts()) {
       the_newlines_post($REDIRECT_TOP);
     }
   ?>
-</div> <!-- /container -->
+</div>
 
 <div class="container">
   <div class="row">

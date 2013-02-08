@@ -3,12 +3,10 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title><?php is_home() ? bloginfo('name') : wp_title(''); ?></title>
+    <title><?php bloginfo('name'); ?><?php is_home() ? "" : wp_title('-'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <!-- Le styles -->
+    <!-- Style -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->

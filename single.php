@@ -3,10 +3,10 @@
   <?php
     while (have_posts()) {
       the_post();
-      the_newlines_post();
+      the_newlines_post($REDIRECT_HOME);
     }
   ?>
-</div> <!-- /container -->
+</div>
 
 <div class="container">
   <?php get_footer(); ?>

@@ -19,11 +19,11 @@ function the_newlines_post($redirect) {
   <div class="post-container">
     <div class="row">
       <div class="span10 offset1">
-        <div>
-          <h1><?php the_title(); ?></h1>
+        <div class="post-title">
+          <h1><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></h1>
         </div>
-        <div>
-          <p class="post-details">
+        <div class="post-details">
+          <p>
             <em>
               By: <?php the_author_posts_link(); ?> | Categories: <?php the_category(", "); ?>
             </em>
@@ -35,7 +35,9 @@ function the_newlines_post($redirect) {
           </p>
         </div>
         <div class="post-image">
-          <?php the_post_thumbnail(get_the_ID(), 'full', array('class'=>'img')); ?>
+          <p>
+            <?php the_post_thumbnail(get_the_ID(), 'full', array('class'=>'img')); ?>
+          </p>
         </div>
         <div class="post-body">
           <?php the_content(); ?>

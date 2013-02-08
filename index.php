@@ -6,7 +6,7 @@
       the_newlines_post($REDIRECT_TOP);
     }
   ?>
-</div> <!-- /container -->
+</div>
 
 <div class="container">
   <div class="row">

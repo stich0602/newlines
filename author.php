@@ -9,8 +9,8 @@ if (have_posts()) {
     <h1><?php the_author(); ?></h1>
     <p><em><?php the_author_meta('description'); ?> <?php the_author_link(); ?></em></p>
     <p><small>Disclaimer: The opinions expressed here are the views of the writer and do not necessarily reflect the views and opinions of the writer’s employer(s.)</small></p>
-  </div><!--/span-->
-</div><!--/row-->
+  </div>
+</div>
 <hr class="featurette-divider">
 <?php
   rewind_posts();
@@ -23,7 +23,7 @@ if (have_posts()) {
       the_newlines_post($REDIRECT_TOP);
     }
   ?>
-</div> <!-- /container -->
+</div>
 
 <div class="container">
   <div class="row">
