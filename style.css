@@ -1,0 +1,54 @@
+/*
+Theme Name: newlin.es
+Theme URI: http://kstich.com/newlines_theme
+Author: Kevin Stich
+Author URI: http://kstich.com
+Description: The theme for newlin.es
+Version: 0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, flexible-width, featured-images, full-width-template
+Text Domain: newlines
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-responsive.min.css');
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+  background-color: #e8e8e8;
+}
+
+div#top {
+  padding-bottom: 40px;
+}
+
+.side-rule {
+  margin-top: .5em;
+}
+p.newline {
+  color: red;
+  font-size: 2em;
+  text-align: center;
+  margin: 18px 0px;
+}
+p.newline.nav-older {
+  font-size: 1em;
+}
+p.newline a {
+  color: red;
+  text-decoration: none;
+}
+
+div#infscr-loading {
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  margin: 18px 0px;
+}
